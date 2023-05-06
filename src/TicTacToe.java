@@ -21,6 +21,8 @@ public class TicTacToe implements ActionListener{
         frame.getContentPane().setBackground(Color.ORANGE);
         frame.setLayout(new BorderLayout());
         frame.setVisible(true);
+        frame.setResizable(false);
+        frame.setAlwaysOnTop(true);
 
         textfield.setBackground(Color.orange);
         textfield.setForeground(new Color(0,0,0));
